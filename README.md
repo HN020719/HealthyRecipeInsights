@@ -1,6 +1,9 @@
-# Recipe-And-Healthiness
-Project for DSC 80 at UCSD
-By Bonnie and Nancy
+# Recipe And Healthiness
+Project for DSC 80 at UCSD \
+by Bonnie Li / Nan Huang (b8li@ucsd.edu / n5huang@ucsd.edu)
+
+
+
 
 
 <iframe src="assets/correlation.html" width=800 height=600 frameBorder=0></iframe>
