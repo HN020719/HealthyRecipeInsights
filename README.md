@@ -75,3 +75,18 @@ In the scatter plot, the points are very dispersed. However, the regression line
 Since the histograms we created were uniform, the average score for each health level was averaged. This finding supports the scatterplot we drew above. The correlation between the health level and the average score is very ambiguous.
 
 <iframe src="assets/healthiness-level-vs-proportional-average-rating.html" width=800 height=600 frameBorder=0></iframe>
+
+### Interesting Aggregates
+
+The pivot table we generated allows us to see that the proportion of average rating for each healthiness level is evenly distributed, which is consistent with the histogram we plotted earlier. Therefore, there is a large uncertainty in the correlation between health levels and average rating.
+
+|   average_rating |
+|-----------------:|
+|         0.125079 |
+|         0.124875 |
+|         0.124833 |
+|         0.125232 |
+|         0.124865 |
+|         0.124584 |
+|         0.125506 |
+|         0.125025 |
