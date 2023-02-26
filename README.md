@@ -130,7 +130,7 @@ In the table and bar chart below, we show the distribution of early, denoted as 
 | False       |                0.0457172 |                0.118053 |
 | True        |                0.954283  |                0.881947 |
 
-<iframe src="assets/Submitted-Time-by-Missingness-of-Rating.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Submitted-Time-by-Missingness-of-Average-Rating.html" width=800 height=600 frameBorder=0></iframe>
 
 Using TVD as test statistics, we get an observed TVD of 0.07233. Then we ran a permutation test with 1000 repetitions, we got a p-value of 0.0 , so we reject the null.  
 
