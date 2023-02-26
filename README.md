@@ -132,7 +132,7 @@ In the table and bar chart below, we show the distribution of early, denoted as 
 
 <iframe src="assets/Submitted-Time-by-Missingness-of-Average-Rating.html" width=800 height=600 frameBorder=0></iframe>
 
-Using TVD as test statistics, we get an observed TVD of 0.07233. Then we ran a permutation test with 1000 repetitions, we got a p-value of 0.0 , so we reject the null.  
+Using TVD as test statistics, we get an observed TVD of 0.07233. Then we ran a permutation test with 1000 repetitions, we got a p-value of 0.0 whcih is smaller than 0.01 significance level, so we reject the null.  
 
 <iframe src="assets/Empirical-Distribution-of-the-TVD.html" width=800 height=600 frameBorder=0></iframe>
 
@@ -147,4 +147,17 @@ In the box plot and histogram below, we show the distribution of the number of c
 
 Also, since the absolute difference between the two group means is 0.2542, which is very small, we decided to use KS as the test statistic to run our permutation test further. 
 
-Since we obtained a p-value of 0.0132, which is greater than 0.01, we fail to reject the null hypothesis. The null hypothesis states that the distribution of 'n_ingredients' when 'average_rating' is missing is the same as the distribution of 'n_ingredients' when 'average_rating' is not missing. Therefore, we conclude that the missingness of the 'average_rating' column is not dependent on 'n_ingredients'.
+Since we obtained a p-value of 0.0132, which is greater than 0.01 significance level, we fail to reject the null hypothesis. The null hypothesis states that the distribution of 'n_ingredients' when 'average_rating' is missing is the same as the distribution of 'n_ingredients' when 'average_rating' is not missing. Therefore, we conclude that the missingness of the 'average_rating' column is not dependent on 'n_ingredients'.
+
+
+## Hypothesis Testing
+Again, our question is : what is the relationship between the level of healthiness and average rating of recipes?
+
+Null Hypotheses: The level of healthiness and average rating come from the same distribution. \
+Alternative Hypotheses: The level of healthiness and average rating do not come from the same distribution. 
+
+Since we only have samples, but no information about any population distributions, we are going to conduct a permutation test. \
+Since the dataset is extensive, more confounding variables may affect the result. We need to use a more strict threshold as our significance level. So we use 0.01 as the significance level, representing higher statistical significance.\
+
+
+The observed differences in the group mean we obtained is 0.342. We ran a permutation test with 1000 repetitions and got a p-value of 0.299, which is much larger than the significance level. We fail to reject the null. Hence, we conclude that the healthiness and average rating may come from the same distribution.
