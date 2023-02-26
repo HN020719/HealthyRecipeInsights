@@ -41,9 +41,10 @@ Since we wanted to examine the relationship between the health level and the ave
 
 | name                                 |     id |   average_rating | calories   | total_fat_(PDV)   | sugar_(PDV)   | sodium_(PDV)   | protein_(PDV)   | saturated_fat_(PDV)   | carbohydrates_(PDV)   |   healthiness level |
 |:-------------------------------------|-------:|-----------------:|:-----------|:------------------|:--------------|:---------------|:----------------|:----------------------|:----------------------|--------------------:|
-| 1 brownies in the world    best ever | 333281 |                4 | False      | False             | False         | False          | False           | False                 | False                 |                   0 |
-| 1 in canada chocolate chip cookies   | 453467 |                5 | False      | False             | False         | False          | False           | False                 | False                 |                   0 |
-| 412 broccoli casserole               | 306168 |                5 | False      | False             | False         | False          | False           | False                 | False                 |                   0 |
+| 1 brownies in the world    best ever | 333281 |                4 | False      | False             | True          | False          | False           | False                 | False                 |                   1 |
+| 1 in canada chocolate chip cookies   | 453467 |                5 | False      | True              | True          | False          | False           | True                  | False                 |                   3 |
+| 412 broccoli casserole               | 306168 |                5 | False      | False             | False         | False          | False           | True                  | False                 |                   1 |
+
 
 ### Univariate Analysis
 
