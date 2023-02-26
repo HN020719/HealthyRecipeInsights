@@ -92,3 +92,25 @@ The pivot table we generated allows us to see that the proportion of average rat
 |                   7 |         0.125025 |
 
 
+## Assessment of Missingness
+### NMAR Analysis
+
+According to the table below, 'name', 'description' and 'average_rating' have missing data.
+
+| columns        |    0 |
+|:---------------|-----:|
+| name           |    1 |
+| id             |    0 |
+| minutes        |    0 |
+| contributor_id |    0 |
+| submitted      |    0 |
+| tags           |    0 |
+| nutrition      |    0 |
+| n_steps        |    0 |
+| steps          |    0 |
+| description    |   70 |
+| ingredients    |    0 |
+| n_ingredients  |    0 |
+| average_rating | 2609 |
+
+We consider the 'description' to be the NMAR. Recipe creators can choose not to write a description if they feel it is not necessary.
