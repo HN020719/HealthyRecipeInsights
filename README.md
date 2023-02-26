@@ -64,3 +64,8 @@ In the process, we found an outlier with an average rating of 5, and the number 
 
 According to the distribution plot for the average rating of less than 5, the id counts are concentrated in cases with an average rating greater than 3.
 <iframe src="assets/average-rating-distribution.html" width=800 height=600 frameBorder=0></iframe>
+
+
+
+<iframe src="assets/healthiness-hevel-vs-average-rating-scatter.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/healthiness-level-vs-proportional-average-rating.html" width=800 height=600 frameBorder=0></iframe>
