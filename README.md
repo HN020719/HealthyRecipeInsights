@@ -48,6 +48,8 @@ Since we wanted to examine the relationship between the health level and the ave
 
 ### Univariate Analysis
 
+According to the scatter plot, most recipes are found in health levels 1 and 2. Since the number of recipes is decreasing as the health level increases, this trend implies that there are few healthy recipes.
+
 <iframe src="assets/healthiness-level-distribution.html" width=800 height=600 frameBorder=0></iframe>
 
 
