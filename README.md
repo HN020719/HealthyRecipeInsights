@@ -20,12 +20,12 @@ Extract the relevant information from the merged dataset above, we have a datase
 
 A description of each column in both datasets is given below.
 
-| Description                                                                                                                                                                                                                               |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Recipe name                                                                                                                                                                                                                               |
-| Recipe ID                                                                                                                                                                                                                                 |
-| Nutrition information in the form [calories (#),                     total fat (PDV), sugar (PDV), sodium (PDV), protein (PDV), saturated fat (PDV),                     carbohydrates (PDV)]; PDV stands for “percentage of daily value” |
-| Average rating of each recipe                                                                                                                                                                                                             |
+| Column         | Description                                                                                                                                                                                                                               |
+|:---------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| name           | Recipe name                                                                                                                                                                                                                               |
+| id             | Recipe ID                                                                                                                                                                                                                                 |
+| nutrition      | Nutrition information in the form [calories (#),                     total fat (PDV), sugar (PDV), sodium (PDV), protein (PDV), saturated fat (PDV),                     carbohydrates (PDV)]; PDV stands for “percentage of daily value” |
+| average_rating | Average rating of each recipe                                                                                                                                                                                                             |
 <iframe src="assets/correlation.html" width=800 height=600 frameBorder=0></iframe>
 
 
