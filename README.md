@@ -123,7 +123,7 @@ Since 'description' is NMAR, we will test the missingness of 'average_rating' co
 
 We classify the submissions into two types: early and late. dates before 2013-06-18 are defined as early and dates after 2013-06-18 are defined as late. We want to test whether the average rating is MAR dependent on early and late submissions.
 
-In the table below, we show the distribution of early, denoted as True, and late, denoted as False, is very different. 
+In the table and bar chart below, we show the distribution of early, denoted as True, and late, denoted as False, is very different. 
 
 | submitted   |   rating_missing = False |   rating_missing = True |
 |:------------|-------------------------:|------------------------:|
