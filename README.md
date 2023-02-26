@@ -140,7 +140,11 @@ Since the null stated that the distribution of 'submitted' when 'rating' is miss
 
 #### average_rating vs n_ingredients
 
-In the box plot and histogram below, we show the distribution of the number of components corresponding to the missingness of the average rating.
+In the box plot and histogram below, we show the distribution of the number of components corresponding to the missingness of the average rating. The distribution of the average rating's missingness is True, and missingness is False is highly overlapping.
 
 <iframe src="assets/n_ingredients-by-Missingness-of-Average-Rating-hist.html" width=800 height=600 frameBorder=0></iframe>
 <iframe src="assets/n_ingredients-by-Missingness-of-Average-Rating-line.html" width=800 height=600 frameBorder=0></iframe>
+
+Also, since the absolute difference between the two group means is 0.2542, which is very small, we decided to use KS as the test statistic to run our permutation test further. 
+
+Since we obtained a p-value of 0.0132, which is greater than 0.01, we fail to reject the null hypothesis. The null hypothesis states that the distribution of 'n_ingredients' when 'average_rating' is missing is the same as the distribution of 'n_ingredients' when 'average_rating' is not missing. Therefore, we conclude that the missingness of the 'average_rating' column is not dependent on 'n_ingredients'.
