@@ -48,7 +48,7 @@ Since we wanted to examine the relationship between the health level and the ave
 
 ### Univariate Analysis
 
-<iframe src="assets/correlation.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/healthiness-level-distribution.html" width=800 height=600 frameBorder=0></iframe>
 
 
 
