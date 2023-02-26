@@ -160,7 +160,6 @@ Since we only have samples, but no information about any population distribution
 Since the dataset is extensive, more confounding variables may affect the result. We need to use a more strict threshold as our significance level. So we use 0.01 as the significance level, representing higher statistical significance.\
 We consider each healthiness level as one group. Since the average ratings for each group are quantitative, we will choose the absolute differences in group means as the test statistic.
 
-The observed differences in the group mean we obtained is 0.342. We ran a permutation test with 1000 repetitions and got a p-value of 0.299, which is much larger than the significance level. We fail to reject the null. Hence, we conclude that the healthiness and average rating may come from the same distribution.
-
+The observed differences in the group mean we obtained is 0.342. We ran a permutation test with 1000 repetitions and got a p-value of 0.299, which is much larger than the significance level. We fail to reject the null. Hence, we conclude that the healthiness and average rating may come from the same distribution. As the plot shows below:
 
 <iframe src="assets/Empirical-Distribution-of-the-Absolute-Differences-in-Group-Means.html" width=800 height=600 frameBorder=0></iframe>
