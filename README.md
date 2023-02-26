@@ -151,7 +151,7 @@ Since we obtained a p-value of 0.0132, which is greater than 0.01 significance l
 
 
 ## Hypothesis Testing
-Again, our question is : what is the relationship between the level of healthiness and average rating of recipes?
+Again, our question is: what is the relationship between the level of healthiness and average rating of recipes?
 
 Null Hypotheses: The level of healthiness and average rating come from the same distribution. \
 Alternative Hypotheses: The level of healthiness and average rating do not come from the same distribution. 
