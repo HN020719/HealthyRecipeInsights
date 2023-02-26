@@ -114,3 +114,18 @@ According to the table below, 'name', 'description' and 'average_rating' have mi
 | average_rating | 2609 |
 
 We consider the 'description' to be the NMAR. Recipe creators can choose not to write a description if they feel it is not necessary.
+
+### Missingness Dependency
+
+Since 'description' is NMAR, we will test the missingness of 'average_rating' column. We believe 'average_rating' is MAR, since it dependent on 'submitted', but not dependent on 'n_ingredients'.
+
+#### average_rating vs submitted
+| submitted   |   rating_missing = False |   rating_missing = True |
+|:------------|-------------------------:|------------------------:|
+| False       |                0.0457172 |                0.118053 |
+| True        |                0.954283  |                0.881947 |
+
+#### average_rating vs n_ingredients
+
+
+
