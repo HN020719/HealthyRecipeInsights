@@ -22,7 +22,6 @@ Extract the relevant information from the merged dataset above, we have a datase
 
 A description of each column in both datasets is given below.
 
-
 | Column         | Description                                                                                                                                                                                                                               |
 |:---------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | name           | Recipe name                                                                                                                                                                                                                               |
@@ -37,7 +36,6 @@ A description of each column in both datasets is given below.
 First, we removed all brackets from the "nutrition" column and divided the entire nutrition column into 7 separate columns corresponding to calories, total fat, sugar, sodium, protein, saturated fat, and carbohydrates. Then, we converted all the nutrition columns from string to float.
 
 Since we wanted to examine the relationship between the health level and the average rating of the recipes, we wanted to assign a health level to each recipe based on each nutritional data. In general, the recommended daily calorie intake is 2000 calories for women and 2500 calories for men, so the healthy meal we defined should be below 833 calories. The pdv for each nutrient should be less than 33%. If the nutritional data is within this range, we will give it a True, otherwise False. By adding up the individual nutritional columns, we will get a new column called "healthiness level", ranging from 0 to 7 to represent the level of healthiness for each recipe.
-
 
 | name                                 |     id |   average_rating | calories   | total_fat_(PDV)   | sugar_(PDV)   | sodium_(PDV)   | protein_(PDV)   | saturated_fat_(PDV)   | carbohydrates_(PDV)   |   healthiness level |
 |:-------------------------------------|-------:|-----------------:|:-----------|:------------------|:--------------|:---------------|:----------------|:----------------------|:----------------------|--------------------:|
@@ -54,5 +52,15 @@ According to the scatter plot, most recipes are found in health levels 1 and 2. 
 
 
 
+In the process, we found an outlier with an average rating of 5, and the number of ids was almost half of the total. Since this outlier might affect the shape of the output and the actual result, we took it away. 
 
+|   average_rating |   count |
+|-----------------:|--------:|
+|          4.97368 |       1 |
+|          4.97727 |       1 |
+|          4.98113 |       1 |
+|          4.99078 |       1 |
+|          5       |   47784 |
 
+According to the distribution plot for the average rating of less than 5, the id counts are concentrated in cases with an average rating greater than 3.
+<iframe src="assets/average-rating-distribution.html" width=800 height=600 frameBorder=0></iframe>
