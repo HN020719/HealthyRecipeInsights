@@ -66,6 +66,12 @@ According to the distribution plot for the average rating of less than 5, the id
 <iframe src="assets/average-rating-distribution.html" width=800 height=600 frameBorder=0></iframe>
 
 
+### Bivariate Analysis
+
+In the scatter plot, the points are very dispersed. However, the regression line shows a weak positive correlation between the average rating and the level of healthiness. The plot implies that the average rating increases as the healthiness of the food increases. 
 
 <iframe src="assets/healthiness-hevel-vs-average-rating-scatter.html" width=800 height=600 frameBorder=0></iframe>
+
+Since the histograms we created were uniform, the average score for each health level was averaged. This finding supports the scatterplot we drew above. The correlation between the health level and the average score is very ambiguous.
+
 <iframe src="assets/healthiness-level-vs-proportional-average-rating.html" width=800 height=600 frameBorder=0></iframe>
