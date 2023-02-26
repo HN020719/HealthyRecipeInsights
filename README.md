@@ -132,6 +132,12 @@ In the table and bar chart below, we show the distribution of early, denoted as 
 
 <iframe src="assets/Submitted-Time-by-Missingness-of-Rating.html" width=800 height=600 frameBorder=0></iframe>
 
+Using TVD as test statistics, we get an observed TVD of 0.07233. Then we ran a permutation test with 1000 repetitions, we got a p-value of 0.0 , so we reject the null.  
+
+<iframe src="assets/Empirical-Distribution-of-the-TVD.html" width=800 height=600 frameBorder=0></iframe>
+
+Since the null stated that the distribution of 'submitted' when 'rating' is missing is the same as the distribution of 'submitted' when 'rating' is not missing. Hence, we conclude that the missingness in the 'rating' column is dependent on 'submitted'.
+
 #### average_rating vs n_ingredients
 
 
