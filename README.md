@@ -120,10 +120,17 @@ We consider the 'description' to be the NMAR. Recipe creators can choose not to 
 Since 'description' is NMAR, we will test the missingness of 'average_rating' column. We believe 'average_rating' is MAR, since it dependent on 'submitted', but not dependent on 'n_ingredients'.
 
 #### average_rating vs submitted
+
+We classify the submissions into two types: early and late. dates before 2013-06-18 are defined as early and dates after 2013-06-18 are defined as late. We want to test whether the average rating is MAR dependent on early and late submissions.
+
+In the table below, we show the distribution of early, denoted as True, and late, denoted as False, is very different. 
+
 | submitted   |   rating_missing = False |   rating_missing = True |
 |:------------|-------------------------:|------------------------:|
 | False       |                0.0457172 |                0.118053 |
 | True        |                0.954283  |                0.881947 |
+
+<iframe src="assets/Submitted-Time-by-Missingness-of-Rating.html" width=800 height=600 frameBorder=0></iframe>
 
 #### average_rating vs n_ingredients
 
