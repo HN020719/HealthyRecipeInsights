@@ -140,5 +140,7 @@ Since the null stated that the distribution of 'submitted' when 'rating' is miss
 
 #### average_rating vs n_ingredients
 
+In the box plot and histogram below, we show the distribution of the number of components corresponding to the missingness of the average rating.
 
-
+<iframe src="assets/n_ingredients-by-Missingness-of-Average-Rating-hist.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/n_ingredients-by-Missingness-of-Average-Rating-line.html" width=800 height=600 frameBorder=0></iframe>
