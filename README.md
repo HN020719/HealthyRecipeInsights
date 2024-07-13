@@ -15,11 +15,15 @@ We will investigate the relationship between the level of healthiness and the av
 
 Extract the relevant information from the merged dataset above, we have a dataset with 83782 rows and 4 columns, 'name', 'id', 'nutrition', and 'average_rating', as example below: 
 
-| name                                 |     id | nutrition                                    |   average_rating |
-|:-------------------------------------|-------:|:---------------------------------------------|-----------------:|
-| 1 brownies in the world    best ever | 333281 | [138.4, 10.0, 50.0, 3.0, 3.0, 19.0, 6.0]     |                4 |
-| 1 in canada chocolate chip cookies   | 453467 | [595.1, 46.0, 211.0, 22.0, 13.0, 51.0, 26.0] |                5 |
-| 412 broccoli casserole               | 306168 | [194.8, 20.0, 6.0, 32.0, 22.0, 36.0, 3.0]    |                5 |
+<sub>
+
+| Name                                   |   ID    | Nutrition                                 | Avg. Rating |
+|:---------------------------------------|--------:|:------------------------------------------|------------:|
+| 1 brownies in the world best ever       |  333281 | [138.4, 10.0, 50.0, 3.0, 3.0, 19.0, 6.0]   |           4 |
+| 1 in canada chocolate chip cookies      |  453467 | [595.1, 46.0, 211.0, 22.0, 13.0, 51.0, 26.0]|           5 |
+| 412 broccoli casserole                 |  306168 | [194.8, 20.0, 6.0, 32.0, 22.0, 36.0, 3.0]  |           5 |
+
+</sub>
 
 
 A description of each column in both datasets is given below.
