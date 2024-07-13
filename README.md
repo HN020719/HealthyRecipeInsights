@@ -165,7 +165,7 @@ The observed differences in the group mean we obtained is 0.342. We ran a permut
 
 <iframe src="assets/Empirical-Distribution-of-the-Absolute-Differences-in-Group-Means.html" width=800 height=600 frameBorder=0></iframe>
 
-## Framing the Problem
+## Building Prediction Models
 
 #### Prediction Problem: 
 Predicting the average rating of a recipe according to minutes, nutritions(splitted), n_steps, and n_ingredients. 
