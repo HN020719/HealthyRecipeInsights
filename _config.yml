@@ -2,4 +2,5 @@ remote_theme: "JustGoodThemes/Scriptor-Jekyll-Theme"
 plugins:
   - jekyll-remote-theme
 description: "Analyzing Recipe Ratings and Healthiness with Machine Learning"
-# url: "https://hn020719.github.io/"
+baseurl: "/HealthyRecipeInsights"
+url: "https://hn020719.github.io"
