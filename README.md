@@ -6,9 +6,13 @@ Website Link: https://hn020719.github.io/
 ## Introduction
 In this project, we are going to investigate a dataset containing recipes and ratings from food.com. After extracting two raw datasets, one containing recipes and one containing reviews and ratings submitted for the recipes in the first dataset, we merged them and calculated the average ratings for each recipe. Before calculating the average, we replace all the '0' ratings with 'np.nan' to get the accurate average rating. If we don't replace them with 0, those recipe without a rating will not be included. The first row of the resulting dataset will be:
 
-| name                                 |   id   | minutes | contributor_id | submitted   | tags                                             | nutrition                              | n_steps | steps                                             | description                                   | ingredients                                       | n_ingredients | average_rating |
-|--------------------------------------|-------:|--------:|---------------:|:------------|:-------------------------------------------------|:---------------------------------------|--------:|:--------------------------------------------------|:----------------------------------------------|:--------------------------------------------------|--------------:|--------------:|
-| Best Ever Brownies in the World      | 333281 |      40 |         985201 | 2008-10-27  | ['60-minutes-or-less', 'time-to-make', ...       | [138.4, 10.0, 50.0, 3.0, 3.0, 19.0, 6.0] |      10 | ['Preheat oven to 350°F and arrange the rack i... | These are the most chocolatey, moist, rich ... | ['bittersweet chocolate', 'unsalted butter', ... |             9 |             4 |
+<sub>
+
+| Name                               |   ID   | Minutes | Contributor ID | Submitted   | Tags                                           | Nutrition                              | N Steps | Steps                                           | Description                                 | Ingredients                                     | N Ingredients | Average Rating |
+|------------------------------------|-------:|--------:|---------------:|:------------|:-----------------------------------------------|:---------------------------------------|--------:|:------------------------------------------------|:---------------------------------------------|:------------------------------------------------|--------------:|--------------:|
+| Best Ever Brownies in the World    | 333281 |      40 |         985201 | 2008-10-27  | ['60-minutes-or-less', 'time-to-make', ...     | [138.4, 10.0, 50.0, 3.0, 3.0, 19.0, 6.0] |      10 | ['Preheat oven to 350°F and arrange the rack i... | These are the most chocolatey, moist, rich ... | ['bittersweet chocolate', 'unsalted butter', ... |             9 |             4 |
+
+</sub>
 
 
 We will investigate the relationship between the level of healthiness and the average rating of recipes. If there is a relationship, the reader can quickly decide whether a recipe is healthy based on the rating. If there is no relationship, the reader can ignore the rating when trying to pick a healthy recipe. 
