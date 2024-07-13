@@ -1,11 +1,5 @@
-# remote_theme: pages-themes/cayman@v0.2.0
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
-
-
 remote_theme: "JustGoodThemes/Scriptor-Jekyll-Theme"
 plugins:
   - jekyll-remote-theme
-title: "Healthy Recipe Insights"
 description: "Analyzing Recipe Ratings and Healthiness with Machine Learning"
-url: "https://YOUR_USERNAME.github.io"
+url: "https://hn020719.github.io/"
