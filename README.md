@@ -49,11 +49,17 @@ First, we removed all brackets from the "nutrition" column and divided the entir
 
 Since we wanted to examine the relationship between the health level and the average rating of the recipes, we wanted to assign a health level to each recipe based on each nutritional data. In general, the recommended daily calorie intake is 2000 calories for women and 2500 calories for men, so the healthy meal we defined should be below 833 calories. The pdv for each nutrient should be less than 33%. If the nutritional data is within this range, we will give it a True, otherwise False. By adding up the individual nutritional columns, we will get a new column called "healthiness level", ranging from 0 to 7 to represent the level of healthiness for each recipe.
 
-| name                                 |     id |   average_rating | calories   | total_fat_(PDV)   | sugar_(PDV)   | sodium_(PDV)   | protein_(PDV)   | saturated_fat_(PDV)   | carbohydrates_(PDV)   |   healthiness level |
-|:-------------------------------------|-------:|-----------------:|:-----------|:------------------|:--------------|:---------------|:----------------|:----------------------|:----------------------|--------------------:|
-| 1 brownies in the world    best ever | 333281 |                4 | False      | False             | True          | False          | False           | False                 | False                 |                   1 |
-| 1 in canada chocolate chip cookies   | 453467 |                5 | False      | True              | True          | False          | False           | True                  | False                 |                   3 |
-| 412 broccoli casserole               | 306168 |                5 | False      | False             | False         | False          | False           | True                  | False                 |                   1 |
+| name                               |     id |   average_rating | calories   | total_fat_(PDV)   |
+|:-----------------------------------|-------:|-----------------:|:-----------|:------------------|
+| 1 brownies in the world best ever  | 333281 |                4 | False      | False             |
+| 1 in canada chocolate chip cookies | 453467 |                5 | False      | True              |
+| 412 broccoli casserole             | 306168 |                5 | False      | False             |
+
+| name                               | sugar_(PDV)   | sodium_(PDV)   | protein_(PDV)   | saturated_fat_(PDV)   | carbohydrates_(PDV)   |   healthiness level |
+|:-----------------------------------|:--------------|:---------------|:----------------|:----------------------|:----------------------|--------------------:|
+| 1 brownies in the world best ever  | True          | False          | False           | False                 | False                 |                   1 |
+| 1 in canada chocolate chip cookies | True          | False          | False           | True                  | False                 |                   3 |
+| 412 broccoli casserole             | False         | False          | False           | True                  | False                 |                   1 |
 
 
 ### Univariate Analysis
