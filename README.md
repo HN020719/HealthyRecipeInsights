@@ -165,10 +165,6 @@ The observed differences in the group mean we obtained is 0.342. We ran a permut
 
 <iframe src="assets/Empirical-Distribution-of-the-Absolute-Differences-in-Group-Means.html" width=800 height=600 frameBorder=0></iframe>
 
-# From Kitchen to Your Health: Recipe And Healthiness
-Project for DSC 80 at UCSD \
-by Bonnie Li / Nan Huang (b8li@ucsd.edu / n5huang@ucsd.edu)
-
 ## Framing the Problem
 
 #### Prediction Problem: 
