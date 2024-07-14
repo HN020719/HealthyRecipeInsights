@@ -195,13 +195,22 @@ Since all the data were generated before the time we extracted them, we knew the
 #### Data Cleaning
 We removed all brackets from the "nutrition" column and divided the entire nutrition column into 7 separate columns: total fat, sugar, sodium, protein, saturated fat, and carbohydrates. Then, we converted all the nutrition columns from string to float, and dropped all the null values.
 
-|   minutes |   n_steps |   n_ingredients |   calories |   total_fat_(PDV) |   sugar_(PDV) |   sodium_(PDV) |   protein_(PDV) |   saturated_fat_(PDV) |   carbohydrates_(PDV) |   average_rating |
-|----------:|----------:|----------------:|-----------:|------------------:|--------------:|---------------:|----------------:|----------------------:|----------------------:|-----------------:|
-|        40 |        10 |               9 |      138.4 |                10 |            50 |              3 |               3 |                    19 |                     6 |                4 |
-|        45 |        12 |              11 |      595.1 |                46 |           211 |             22 |              13 |                    51 |                    26 |                5 |
-|        40 |         6 |               9 |      194.8 |                20 |             6 |             32 |              22 |                    36 |                     3 |                5 |
-|       120 |         7 |               7 |      878.3 |                63 |           326 |             13 |              20 |                   123 |                    39 |                5 |
-|        90 |        17 |              13 |      267   |                30 |            12 |             12 |              29 |                    48 |                     2 |                5 |
+|   minutes |   n_steps |   n_ingredients |   calories |   total_fat_(PDV) |   sugar_(PDV) |
+|----------:|----------:|----------------:|-----------:|------------------:|--------------:|
+|        40 |        10 |               9 |      138.4 |                10 |            50 |
+|        45 |        12 |              11 |      595.1 |                46 |           211 |
+|        40 |         6 |               9 |      194.8 |                20 |             6 |
+|       120 |         7 |               7 |      878.3 |                63 |           326 |
+|        90 |        17 |              13 |      267   |                30 |            12 |
+
+|   sodium_(PDV) |   protein_(PDV) |   saturated_fat_(PDV) |   carbohydrates_(PDV) |   average_rating |
+|---------------:|----------------:|----------------------:|----------------------:|-----------------:|
+|              3 |               3 |                    19 |                     6 |                4 |
+|             22 |              13 |                    51 |                    26 |                5 |
+|             32 |              22 |                    36 |                     3 |                5 |
+|             13 |              20 |                   123 |                    39 |                5 |
+|             12 |              29 |                    48 |                     2 |                5 |
+
 
 
 ## Baseline Model
