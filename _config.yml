@@ -1,7 +1,6 @@
 remote_theme: "JustGoodThemes/Scriptor-Jekyll-Theme"
 plugins:
   - jekyll-remote-theme
-#title: "From Kitchen to Your Health: Healthy Recipe Insights"
+title: ""
 description: "Analyzing Recipe Ratings and Healthiness with Machine Learning"
-baseurl: "/HealthyRecipeInsights"
-url: "https://hn020719.github.io"
+
