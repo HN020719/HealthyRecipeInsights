@@ -3,11 +3,9 @@ layout: default
 title: "From Kitchen to Your Health: Healthy Recipe Insights"
 ---
 
-# From Kitchen to Your Health: Healthy Recipe Insights
-
 Project for DSC 80 at UCSD \
 by Bonnie Li / Nan Huang (b8li@ucsd.edu / n5huang@ucsd.edu)\
-Website Link: [https://hn020719.github.io/](https://hn020719.github.io/HealthyRecipeInsights/)
+Website Link: https://hn020719.github.io/HealthyRecipeInsights/ 
 
 ## Introduction
 In this project, we are going to investigate a dataset containing recipes and ratings from food.com. After extracting two raw datasets, one containing recipes and one containing reviews and ratings submitted for the recipes in the first dataset, we merged them and calculated the average ratings for each recipe. Before calculating the average, we replace all the '0' ratings with 'np.nan' to get the accurate average rating. If we don't replace them with 0, those recipe without a rating will not be included. The first row of the resulting dataset will be:
