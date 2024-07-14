@@ -1,3 +1,8 @@
+<div style="text-align: center;">
+  <h1>From Kitchen to Your Health:<br>Healthy Recipe Insights</h1>
+</div>
+
+
 Project for DSC 80 at UCSD \
 by Bonnie Li / Nan Huang (b8li@ucsd.edu / n5huang@ucsd.edu)\
 Website Link: https://hn020719.github.io/HealthyRecipeInsights/ 
